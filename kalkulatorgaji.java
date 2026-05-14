@@ -9,9 +9,9 @@ public class kalkulatorgaji {
         String golongan;
         int jamLembur;
 
-        double gajiPokok = 0;
-        double gajiLembur = 0;
-        double totalGaji;
+        int gajiPokok = 0;
+        int gajiLembur = 0;
+        int totalGaji;
 
         System.out.print("Masukkan Golongan Karyawan (A/B/C): ");
         golongan = input.nextLine();
@@ -31,15 +31,15 @@ public class kalkulatorgaji {
         
         
         if (jamLembur == 1) {
-            gajiLembur = 0.30 * gajiPokok;
+            gajiLembur = (int) (0.30 * gajiPokok);
         } else if (jamLembur == 2) {
-            gajiLembur = 0.32 * gajiPokok;
+            gajiLembur = (int) (0.32 * gajiPokok);
         } else if (jamLembur == 3) {
-            gajiLembur = 0.34 * gajiPokok;
+            gajiLembur = (int) (0.34 * gajiPokok);
         } else if (jamLembur == 4) {
-            gajiLembur = 0.36 * gajiPokok;
+            gajiLembur = (int) (0.36 * gajiPokok);
         } else if (jamLembur >= 5) {
-            gajiLembur = 0.38 * gajiPokok;
+            gajiLembur = (int) (0.38 * gajiPokok);
         } else {
             gajiLembur = 0;
         }
