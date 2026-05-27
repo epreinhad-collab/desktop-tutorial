@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kalkulatorgaji {
+public class kalkulatorgaji2 {
 
     public static void main(String[] args) {
 
