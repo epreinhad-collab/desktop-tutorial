@@ -9,13 +9,13 @@ public class kalkulatorgaji2 {
         String golongan;
         int jamLembur;
 
-        int gaji[] = {5000000, 6500000, 9500000};
-
-        double lembur[] = {0.30, 0.32, 0.34, 0.36, 0.38};
-
         int gajiPokok = 0;
         int gajiLembur = 0;
         int totalGaji;
+
+        int gaji[] = {5000000, 6500000, 9500000};
+
+        double lembur[] = {0.30, 0.32, 0.34, 0.36, 0.38};
 
         System.out.print("Masukkan Golongan Karyawan (A/B/C): ");
         golongan = input.nextLine();
